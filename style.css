@@ -1,0 +1,44 @@
+:root {
+    --cor_borda: rgb(104, 101, 101);
+   
+}
+body {
+    background: black;
+}
+
+
+.perfil-image img {
+    width: 200px;
+    border-radius: 100px;
+    border: 3px solid var(--cor_borda);
+}
+.container {
+    text-align: center;
+    
+}
+.informacoes {
+  color: white;
+  font-size: 20px;
+  width: 400px;
+  margin: 0 auto;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+ul li {
+    padding: 3px 0;
+}
+ion-icon {
+    color: white;
+   
+}
+a {
+    text-decoration: none;
+}
+.links { 
+    display:flex;
+    justify-content: center;
+    gap: 10px;
+}
+
